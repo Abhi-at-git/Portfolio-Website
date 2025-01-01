@@ -1,0 +1,89 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 1rem 0;
+  }
+  
+  .hero-content h1 span {
+    color: #ff6600;
+  }
+  
+  .hero-content h4 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .testimonial {
+    font-style: italic;
+    color: #666;
+    margin: 1.5rem 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .portfolio-btn, .hire-me-btn {
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .portfolio-btn {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  
+  .hire-me-btn {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .hero-image {
+    position: relative;
+  }
+  
+  .hero-image img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 10px solid #ffebd6;
+  }
+  
+  .experience {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    text-align: center;
+    color: #ff6600;
+  }
+  
+  .experience h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .experience p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
