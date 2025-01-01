@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import image from '../../assets/images/self.jpg';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -14,8 +15,12 @@ const HeroSection = () => {
         "Abhinav is a skilled and creative developer with a passion for delivering exceptional results. Always reliable and detail-oriented, and a true asset to any project."
         </p>
         <div className="buttons">
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           <button className="portfolio-btn">Portfolio</button>
+          </a>
+          <Link to="/contact">
           <button className="hire-me-btn">Hire me</button>
+          </Link>
         </div>
       </div>
       <div className="hero-image">

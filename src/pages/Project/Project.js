@@ -5,6 +5,7 @@ import CDS from "../../assets/images/CDS.jpg";
 import GAN from "../../assets/images/GAN.jpg";
 import GNN from "../../assets/images/GNN.jpg";
 import ERS from "../../assets/images/ERS.jpg";
+import portfolio from "../../assets/images/portfolio.jpg";
 import Navbar from "../../components/Navbar/Navbar";
 import './style.css'
 const Project = () => {
@@ -58,6 +59,17 @@ const Project = () => {
       ],
       image: nordstoneimage,
       githubLink: "https://github.com/Abhi-at-git/Nordstone.git",
+    },
+    {
+      title: "Portfolio Website",
+      description: [
+        "Built Personal Portfolio Website using ReactJS.",
+        "Implemented the use of React Router for navigation and smooth transition between pages.",
+        "Used CSS for styling and responsive design.",
+        "Deployed the website on Vercel."
+      ],
+      image: portfolio,
+      githubLink: "https://github.com/Abhi-at-git/Portfolio-Website.git",
     }
   ];
 
