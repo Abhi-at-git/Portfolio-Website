@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { FaCertificate } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
 const ProjectCard = ({ title, description, image, websiteLink,certificateLink }) => {
@@ -22,7 +23,7 @@ const ProjectCard = ({ title, description, image, websiteLink,certificateLink })
         </a>
         <br />
         <a href={certificateLink} target="_blank" rel="noopener noreferrer">
-        <FaGlobe className="website-icon" />   Certificate
+        <FaCertificate className="certificate-icon" />   Certificate
         </a>
       </div>
       <div className="card-image">
