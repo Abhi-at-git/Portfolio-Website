@@ -37,10 +37,10 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_0de4i96", 
-        "template_kj2nlpn",
+        "service_ip0p3a8", 
+        "template_vl0p8g4",
         templateParams,
-        "ai2G0DwRbtWAzj7qU" 
+        "K_0XMSLkND1DIQRYz" 
       );
       setResponseMessage("Message sent successfully!");
     } catch (error) {
