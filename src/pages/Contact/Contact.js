@@ -37,10 +37,10 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_ip0p3a8", 
+        "service_ip0p3a8",
         "template_vl0p8g4",
         templateParams,
-        "K_0XMSLkND1DIQRYz" 
+        "K_0XMSLkND1DIQRYz"
       );
       setResponseMessage("Message sent successfully!");
     } catch (error) {
@@ -72,10 +72,16 @@ const Contact = () => {
             </li>
           </ul>
           <div className="social-icons">
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-discord"></i></a>
-            <a href="#"><i className="fab fa-linkedin"></i></a>
+            <a href="https://x.com/Abhinav22818282?s=09" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/p_a_r_a_n_o_i_d?utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/paranoid-abhi" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+
           </div>
         </div>
         <div className="contact-form">
