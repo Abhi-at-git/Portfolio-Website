@@ -8,7 +8,9 @@ const Home = () => {
   return (
     <div className="App">
       <Navbar />
+      <main>
       <HeroSection />
+      </main>
       <Footer />
     </div>
   );
