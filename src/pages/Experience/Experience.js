@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../../components/ExperienceCard/ExperienceCard";
+import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import lysto from "../../assets/images/lysto.jpeg";
 import Navbar from "../../components/Navbar/Navbar";
 import './style.css'
@@ -25,7 +25,7 @@ const Experience = () => {
       <Navbar />
       <h1>Experiences</h1>
       {projectData.map((project, index) => (
-        <ProjectCard
+        <ExperienceCard
           key={index}
           title={project.title}
           description={project.description}
